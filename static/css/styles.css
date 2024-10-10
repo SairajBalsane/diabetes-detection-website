@@ -1,0 +1,140 @@
+/*style.css*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    background-image: url('../images/homepage-bg.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+nav {
+    background-color: #004d80;
+    color: white;
+    padding: 10px;
+}
+
+nav h2 {
+    display: inline-block;
+    margin: 0;
+    color: #FFEB3B;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFEB3B; /* Change color to match h2 */
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better visibility */
+    font-size: 1.1em; /* Slightly increase font size for better readability */
+}
+
+.content {
+    padding: 20px;
+}
+
+.homepage {
+    text-align: center;
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.homepage {
+    padding: 20px; 
+    color: white; 
+    text-align: center; 
+    background-size: cover; 
+    background-position: center; 
+    height: calc(100vh - 60px); 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+h1 {
+    font-size: 3em; 
+    margin: 10px 0 20px 0; 
+    color: #FFFFFF; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+h2 {
+    font-size: 2em; 
+    margin: 10px 0; 
+    color: #FFEB3B; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+p {
+    font-size: 1.2em; 
+    margin: 10px 0; 
+    color: #FFEB3B; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+li {
+    margin: 10px 0; 
+    font-size: 1.1em; 
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 20px;
+    background-color: #4CAF50; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    font-size: 1.2em; 
+}
+
+.button:hover {
+    background-color: #45a049; 
+}
+
+.scrollable-container {
+    max-height: 80vh; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 20px; /* Optional padding for better spacing */
+    
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for better visibility */
+}

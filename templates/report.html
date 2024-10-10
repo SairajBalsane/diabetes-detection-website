@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Download Your Report</h2>
+<p>Your latest diagnosis report is ready for download.</p>
+<a href="{{ url_for('download_report') }}" class="button">Download PDF Report</a>
+{% endblock %}

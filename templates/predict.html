@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Predict Diabetes</h2>
+<p>Upload the required patient data to get the diabetes prediction:</p>
+<form action="{{ url_for('predict') }}" method="POST">
+    <button type="submit">Get Prediction</button>
+</form>
+<p>Your predicted result: <span>{{ prediction_result }}</span></p>
+{% endblock %}
